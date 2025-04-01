@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Pessoal</title>
+
+    <!-- Link atualizado do FontAwesome (garante que os ícones apareçam) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+     <!-- Google Fonts: Poppins -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url(1394365.png);
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .profile-pic {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.1);
+            transition: 0.3s ease;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #333;
+            font-size: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+            color: #0073b1;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #333;
+            font-weight: 400;
+        }
+
+        p {
+            color: #666;
+            font-weight: 300;
+        }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet"
+
+</head>
+<body>
+    <img src="IMG_20210722_205911_Copy-removebg-preview.png" alt="Minha Foto" class="profile-pic">
+    <h1>Ezequiel Alves</h1>
+
+    <!-- Mini coluna com ícones -->
+    <div class="social-icons">
+        <a href="https://www.instagram.com/_ezeq_alves/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/E23qLord" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ezequiel-alves-383884282/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+
+    <div class="container">
+        <h2>Meu perfil e Projetos</h2>
+        <p>Sou estudante de Análise e Desenvolvimento de Sistemas, aprendendo HTML e Python.</p>
+        <p>Busco um estágio na área de tecnologia para aplicar meus conhecimentos.</p>
+    </div>
+</body>
+</html>
